@@ -358,7 +358,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Type 1.01 Flattened Board.kicad_pro",
+    "filename": "Type 2.01 Flattened Board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -457,6 +457,14 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "79441cfe-3899-4d3b-8b0d-5ff45c5633da",
+      "MuxingSource"
+    ],
+    [
+      "91a24060-cf18-40fd-b368-13c3d62154ef",
+      "SingleAHC158"
     ]
   ],
   "text_variables": {}

@@ -1149,6 +1149,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c1279b64-4e05-4b7b-9b38-52bb898bdf36)
   )
+  (bus_entry (at 287.274 94.742) (size 2.54 2.54)
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid c46ca9e9-ef53-409a-beeb-f05a0b9aac7a)
+  )
   (bus_entry (at 287.274 79.502) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ca9f19d5-6e77-4180-aaa3-799363e43608)
@@ -1649,10 +1653,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 78b4eeec-7a5e-42ac-97c2-90af55b0fb99)
   )
-  (wire (pts (xy 289.814 94.742) (xy 341.63 94.742))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 79120f19-b653-4177-8110-2006c5e46a71)
-  )
   (bus (pts (xy 287.274 38.354) (xy 287.274 35.814))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7a91f3d7-4f26-4963-a3ec-b77a248a1cde)
@@ -1693,6 +1693,10 @@
   (bus (pts (xy 88.646 50.8) (xy 88.646 16.51))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7ebbd393-57e1-49f5-9017-21c508577dbd)
+  )
+  (bus (pts (xy 287.274 92.202) (xy 287.274 94.742))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 7fcfd51a-9cf8-4f11-b44d-866971945b1f)
   )
 
   (wire (pts (xy 289.814 33.274) (xy 341.376 33.274))
@@ -1746,6 +1750,10 @@
   (wire (pts (xy 139.7 103.632) (xy 187.452 103.632))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8b64525e-675d-48fe-834e-7d606eb182e3)
+  )
+  (wire (pts (xy 289.814 94.742) (xy 341.63 94.742))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 8c32275e-9f49-4c2e-91a9-bb08f3b2e665)
   )
   (wire (pts (xy 289.814 56.134) (xy 341.376 56.134))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1835,6 +1843,11 @@
   (bus (pts (xy 189.992 151.892) (xy 189.992 154.432))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a00b94ad-5806-4530-920f-55df1fae73db)
+  )
+
+  (wire (pts (xy 289.814 97.282) (xy 341.63 97.282))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a0d2b662-e698-4ef4-8caa-9df8121eeba0)
   )
   (bus (pts (xy 189.992 108.712) (xy 189.992 111.252))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2675,6 +2688,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5766beee-5530-46de-9521-a7ccee950f5f)
   )
+  (label "MUX.S2" (at 289.814 97.282 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 58a9b3e5-cc6b-4279-b18c-3a56ef4d4066)
+  )
   (label "MUX.A3" (at 289.814 79.502 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 59cf39e6-5d75-4b07-b7fc-8ba3687e01e1)
@@ -3175,6 +3192,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f1c0af05-34dc-4797-8d56-760882b88268)
   )
+  (label "BUS.PA22" (at 341.63 97.282 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid f20472ca-cd55-4d79-b161-ba3184c2d1c9)
+  )
   (label "BUS.PA13" (at 341.63 74.422 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f213e6a4-f5ff-4af4-a133-56cf54120982)
@@ -3496,8 +3517,22 @@
     (pin "1" (uuid 10306998-eca0-4b2b-970e-43c2d1f796df))
   )
 
+  (sheet (at 262.382 124.714) (size 34.036 40.894) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 79441cfe-3899-4d3b-8b0d-5ff45c5633da)
+    (property "Sheet name" "MuxingSource" (id 0) (at 262.382 124.0024 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MuxInput.kicad_sch" (id 1) (at 262.382 166.1926 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da" (page "2"))
+    (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/91a24060-cf18-40fd-b368-13c3d62154ef" (page "3"))
   )
 
   (symbol_instances
@@ -3505,6 +3540,12 @@
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/464d9bb7-70d4-4916-828d-abf8116c6af4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/91a24060-cf18-40fd-b368-13c3d62154ef/4b7dd3ba-8c48-4927-bacd-b327e612fdd1"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/91a24060-cf18-40fd-b368-13c3d62154ef/531ccfb8-083a-4e78-8462-f015f9d0487b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/6bbc0ffb-1253-4f83-a391-18c95b6a41d8"
@@ -3519,6 +3560,9 @@
     (path "/ad5dacb9-95df-4e70-9973-0c5c607650e9"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/91a24060-cf18-40fd-b368-13c3d62154ef/f32b8ff4-8fac-4e98-9053-183e1380bc78"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
+    )
     (path "/449a4130-5198-43c7-aa17-3cb30c17454b"
       (reference "PT0") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
     )
@@ -3530,6 +3574,15 @@
     )
     (path "/a7b5c9b6-0340-4858-bcec-17c9662f1d76"
       (reference "PT3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
+    )
+    (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/49e96dac-9f28-46ad-8b8c-f17561a3a0e1"
+      (reference "U?") (unit 1) (value "74LS158") (footprint "")
+    )
+    (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/91a24060-cf18-40fd-b368-13c3d62154ef/651fa084-9ad9-4a74-a5ae-11bfbf98411b"
+      (reference "U?") (unit 1) (value "74AHC158") (footprint "")
+    )
+    (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/afa97cc7-19e1-46c3-b3d2-42d6237c8de4"
+      (reference "U?") (unit 1) (value "74LS158") (footprint "")
     )
     (path "/2bd6b25f-a519-4224-8dd9-2e42d262ce2e"
       (reference "XA?") (unit 1) (value "Adafruit Grand Central M4") (footprint "Arduino_Alarm_Siren:Arduino_Mega2560_Shield")
