@@ -2958,7 +2958,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 988d1755-a072-4983-93f0-384e569e1e3e)
   )
-  (label "i960VCC{A[0..31],D[0..15]}" (at 313.436 160.274 180)
+  (label "i960VCC{D[0..15]}" (at 313.436 160.274 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9def6af2-b01f-4b8b-8eee-2c79644dc215)
   )
