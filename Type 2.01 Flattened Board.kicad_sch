@@ -4207,9 +4207,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/1f0ff6aa-7535-4442-bea5-466bb7deaf93"
       (reference "U?") (unit 1) (value "ATmega4809-PF") (footprint "Package_DIP:DIP-40_W15.24mm_Socket")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/2061a341-1622-4ac2-9759-ae5b3a5cac3b"
-      (reference "U?") (unit 1) (value "74HC74") (footprint "")
-    )
     (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/2f7ca029-779d-43b9-8c7f-8131317eb236"
       (reference "U?") (unit 1) (value "74HC244") (footprint "")
     )
