@@ -4243,6 +4243,9 @@
     (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/a430dc87-ffaa-4159-a250-344a142b1c9a"
       (reference "U?") (unit 1) (value "74HC244") (footprint "")
     )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a4a515bf-e9eb-4556-a79d-adc0b94645d1"
+      (reference "U?") (unit 1) (value "74HC74") (footprint "")
+    )
     (path "/9e7b68f8-8caa-4a1d-85d2-3f3d0dd0043a/c7ec7dcc-6935-4414-a439-09a3dedfd1b4"
       (reference "U?") (unit 1) (value "74LVC8T245") (footprint "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm")
     )
@@ -4261,6 +4264,9 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dc0a67ae-f826-4b28-bc64-86cf8c90b043"
       (reference "U?") (unit 1) (value "74HC244") (footprint "")
     )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dce642c5-434b-4649-99c8-71e8ba7f8ca6"
+      (reference "U?") (unit 1) (value "74AHC174") (footprint "")
+    )
     (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/e7eca182-6c02-4554-97ac-1c1ba2f58862"
       (reference "U?") (unit 1) (value "74HC244") (footprint "")
     )
@@ -4272,9 +4278,6 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/50e8a4f2-0b08-4741-b440-5a8f026e5191"
       (reference "U?") (unit 2) (value "i960Sx_PLCC84") (footprint "")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/546c20c1-bc7f-4aae-8a96-2e9b8611c1d2"
-      (reference "U?") (unit 2) (value "74HC74") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/581e7d5d-c281-4497-8bbc-4885f4ce8e04"
       (reference "U?") (unit 3) (value "74HC74") (footprint "")
