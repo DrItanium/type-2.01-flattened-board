@@ -3859,9 +3859,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/0460f3a7-dc29-4928-9368-18e587a893f7"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/05115a81-f387-4a99-af11-fe9f092fd59c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/060f10e4-3868-4fd7-8c73-8ee6efb00f94"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
@@ -3922,9 +3919,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/3a914bcf-3489-4d26-99c6-096a1f18fa4f"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/3bf08e28-1b48-4f77-b697-e268dbb85802"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4212a264-c64b-4d44-9da5-da85b7491f86"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -3960,9 +3954,6 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/61eba569-82b0-4d82-b378-92a7ba27cf16"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/667c2d1c-2b68-40f0-a12a-a49bf776b39b"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/69560c00-fc87-4c2c-b4d6-661da7b33067"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
@@ -4028,9 +4019,6 @@
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/afa999e6-187b-467c-9c6f-d2946439d40c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/aff1c33f-db11-4530-a278-8430dca207fa"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/9e7b68f8-8caa-4a1d-85d2-3f3d0dd0043a/b5e66adf-461f-4b36-9e62-f6bf7e4bf8d9"
@@ -4106,9 +4094,6 @@
       (reference "C?") (unit 1) (value "C") (footprint "")
     )
     (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/0bd06964-3010-466f-b839-33d55d28e43c"
-      (reference "C?") (unit 1) (value "C") (footprint "")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/0f2241d7-9951-40ba-825e-135169cb7247"
       (reference "C?") (unit 1) (value "C") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/0fec62c7-5c6f-4fdf-8203-8d5b2e7bea34"
@@ -4198,9 +4183,6 @@
     (path "/79441cfe-3899-4d3b-8b0d-5ff45c5633da/f6401998-b8ec-452c-8caf-b36265762c18"
       (reference "C?") (unit 1) (value "C") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f692ab7f-d50c-4b98-8bfb-8b41e366272d"
-      (reference "C?") (unit 1) (value "C") (footprint "")
-    )
     (path "/9e7b68f8-8caa-4a1d-85d2-3f3d0dd0043a/f6d13c25-d391-4d5c-bb8c-8fd36a1b6a6d"
       (reference "C?") (unit 1) (value "C") (footprint "")
     )
@@ -4225,9 +4207,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/afad75f8-0ac4-4b1d-b080-f0ca6ba269a2"
       (reference "RN?") (unit 1) (value "R_Network12") (footprint "Resistor_THT:R_Array_SIP13")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/033f2b42-0600-42a8-a360-86915e78b54a"
-      (reference "U?") (unit 1) (value "74HC00") (footprint "")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/05004d75-13ac-477d-8e19-d2ca91d33074"
       (reference "U?") (unit 1) (value "i960Sx_PLCC84") (footprint "")
     )
@@ -4242,6 +4221,9 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4c98d838-4530-4c37-a157-b3a85ef63936"
       (reference "U?") (unit 1) (value "74AHC04") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/5bfe4040-3360-42e6-8569-08b09730f6e9"
+      (reference "U?") (unit 1) (value "74LS08") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/5ea2dd23-0488-4b16-adb4-8c5f40a1c7fe"
       (reference "U?") (unit 1) (value "74LS573") (footprint "")
@@ -4288,14 +4270,8 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/50e8a4f2-0b08-4741-b440-5a8f026e5191"
       (reference "U?") (unit 2) (value "i960Sx_PLCC84") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/581e7d5d-c281-4497-8bbc-4885f4ce8e04"
-      (reference "U?") (unit 3) (value "74HC74") (footprint "")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/6b29e6b8-b138-4b1d-ab71-a05b9b368acc"
       (reference "U?") (unit 3) (value "74AHC04") (footprint "")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/7c947e99-3b1e-43e0-b404-a8a028e31373"
-      (reference "U?") (unit 3) (value "74HC74") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/83e71e47-b68b-44e7-baf5-acc3f67a34e3"
       (reference "U?") (unit 3) (value "i960Sx_PLCC84") (footprint "")
@@ -4306,14 +4282,11 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/b1dd5a37-ec90-4bf0-8c6b-08ea3ab5c89f"
       (reference "U?") (unit 4) (value "74AHC04") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/ff28d324-c372-45b2-9435-b0f40891b830"
-      (reference "U?") (unit 4) (value "74HC00") (footprint "")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/2b63d976-466b-4f7a-96b9-9fb7cfd75669"
       (reference "U?") (unit 5) (value "74AHC04") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4848006f-ad0f-4911-8482-8d3ec2326051"
-      (reference "U?") (unit 5) (value "74HC00") (footprint "")
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/2d1e3704-7909-419e-bd10-0ebda74b8c14"
+      (reference "U?") (unit 5) (value "74LS08") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dcbf02fc-def5-4bb1-af01-5f6da1592c78"
       (reference "U?") (unit 5) (value "i960Sx_PLCC84") (footprint "")
@@ -4321,7 +4294,7 @@
     (path "/9e7b68f8-8caa-4a1d-85d2-3f3d0dd0043a/e401687b-d819-4f78-838c-583930b5954a"
       (reference "U?") (unit 5) (value "74AHC02") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9fa35a24-7c86-4c09-ac84-ebab97a29606"
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/7e93dbc1-2b11-4511-9354-323732e10bb1"
       (reference "U?") (unit 6) (value "74AHC04") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/c3c44329-4e1c-4c48-a430-89e59656f6d4"
