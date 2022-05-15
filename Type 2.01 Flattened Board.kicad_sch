@@ -1602,10 +1602,6 @@
     (uuid 2164d7c3-469d-4db7-a0d6-be4976b16c28)
   )
 
-  (wire (pts (xy 172.72 189.23) (xy 168.148 189.23))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 22bdb563-52c7-41ca-be53-d70edee84913)
-  )
   (wire (pts (xy 139.7 159.512) (xy 187.452 159.512))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 22c56983-b8f5-429e-a45a-523dec7e7073)
@@ -1695,10 +1691,6 @@
     (uuid 37a5aa1c-757e-42dd-ab8f-2082cc9c00a3)
   )
 
-  (wire (pts (xy 168.148 189.23) (xy 168.148 200.152))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 37b06eef-d440-420e-878a-1911c22f2116)
-  )
   (wire (pts (xy 326.644 203.708) (xy 361.95 203.708))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3cf1b307-060d-41e6-bc08-dd79327d1239)
@@ -3718,14 +3710,6 @@
     (uuid fd1e20d2-e4c7-4cbb-8fa6-76116c27e517)
   )
 
-  (global_label "LOW" (shape passive) (at 172.72 189.23 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5fcde284-8efe-4580-90df-eff7c0cdc098)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 178.8542 189.1506 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-
   (symbol (lib_id "power:VCC") (at 31.242 212.598 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 021cd5ec-ef08-46be-9669-290936f8f790)
@@ -4165,22 +4149,6 @@
     (pin "1" (uuid 44ea08b1-012c-4d00-8d98-e3a89a2535c1))
   )
 
-  (symbol (lib_id "power:GND") (at 168.148 200.152 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid edbfded8-58b0-4c33-ba55-66a325a1b8e4)
-    (property "Reference" "#PWR06" (id 0) (at 168.148 206.502 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "" (id 1) (at 168.148 204.5954 0))
-    (property "Footprint" "" (id 2) (at 168.148 200.152 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 168.148 200.152 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 01a14dd2-efd4-4d84-8a0b-0b313d025054))
-  )
-
   (symbol (lib_id "power:PWR_FLAG") (at 51.308 70.104 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fe21f4bc-4df1-4b0f-91ad-8ef15799a690)
@@ -4294,8 +4262,8 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/eca025d3-1945-4a1c-930a-e419169f5e7e"
       (reference "#PWR05") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/edbfded8-58b0-4c33-ba55-66a325a1b8e4"
-      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/948941d9-5990-454f-9b30-189af36f1623"
+      (reference "#PWR06") (unit 1) (value "+5V") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f2b8e171-5b62-402a-8228-906cadcfad9d"
       (reference "#PWR07") (unit 1) (value "+5V") (footprint "")
@@ -4648,12 +4616,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/909ad6f6-fd1f-4fe0-baef-2369917a2988"
       (reference "J1") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9b27769d-fd95-40b0-926b-936fc8d91675"
-      (reference "J2") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/2b4df5a7-c8c5-44ae-9a36-2f3238cd3da8"
-      (reference "J3") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/15285a82-8026-4c1a-875d-764403da219c"
       (reference "J4") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
     )
@@ -4675,6 +4637,12 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/63fea1a5-c9d7-405b-b154-6c59e338c3d2"
       (reference "R1") (unit 1) (value "910") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d06cbe01-ca73-4e56-9f09-e0aefe983993"
+      (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d19c34e0-8a9a-416a-b862-ad751fde4fb3"
+      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/afad75f8-0ac4-4b1d-b080-f0ca6ba269a2"
       (reference "RN1") (unit 1) (value "R_Network12") (footprint "Resistor_THT:R_Array_SIP13")
     )
@@ -4684,11 +4652,17 @@
     (path "/9a7ad329-b7f3-4fe5-8946-64e0416b85b2"
       (reference "U1") (unit 3) (value "74AHC139") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/62ce1694-4177-4ca4-a31b-42e54da1e3e4"
-      (reference "U2") (unit 1) (value "74AHC244") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+    (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/7861ee13-f8ba-4e98-aafe-09acd8610749"
+      (reference "U2") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d21f31ec-cd89-4c1b-b8fb-f121e369eb4b"
-      (reference "U3") (unit 1) (value "74AHC244") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+    (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/ae7d3d4a-243f-46ed-90cb-fdd443869fb6"
+      (reference "U3") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/331639a4-5c2a-4a3b-bfa9-42ccfdbb32e7"
+      (reference "U4") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/0fb12f6c-8388-431b-9389-d4531dca75d7"
+      (reference "U5") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
     )
     (path "/9e7b68f8-8caa-4a1d-85d2-3f3d0dd0043a/cf8e866e-7fd8-48bc-9cd1-0629363574e3"
       (reference "U6") (unit 1) (value "74AHC02") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
@@ -4756,11 +4730,11 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d1056b5e-962e-4eaa-9e0f-9615a5da20d4"
       (reference "U10") (unit 1) (value "74AHC138") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/5dfa9718-b45b-409b-85c7-3dd9bb1e7c09"
-      (reference "U11") (unit 1) (value "74AHC244") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/bc36a70a-0d40-4e22-ac37-b933b8938b31"
+      (reference "U11") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
     )
-    (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/e7099e49-45b2-4d91-83f4-8a1a8eeecb05"
-      (reference "U12") (unit 1) (value "74AHC244") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/c8d4d70f-3a8f-4a68-9c65-fc1ef32edd55"
+      (reference "U12") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4c98d838-4530-4c37-a157-b3a85ef63936"
       (reference "U13") (unit 1) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
@@ -4803,12 +4777,6 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/5ea2dd23-0488-4b16-adb4-8c5f40a1c7fe"
       (reference "U19") (unit 1) (value "74AHC573") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dc0a67ae-f826-4b28-bc64-86cf8c90b043"
-      (reference "U20") (unit 1) (value "74AHC244") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
-    )
-    (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/c58d427c-aec3-48b4-915f-b936c8e35e2f"
-      (reference "U21") (unit 1) (value "74AHC244") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
     )
     (path "/2bd6b25f-a519-4224-8dd9-2e42d262ce2e"
       (reference "XA1") (unit 1) (value "Adafruit Grand Central M4") (footprint "Arduino_Alarm_Siren:Arduino_Mega2560_Shield")
