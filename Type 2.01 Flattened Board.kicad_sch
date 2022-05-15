@@ -4704,8 +4704,20 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4e2010f5-afc6-4273-90b2-4a763055ebca"
       (reference "#PWR0183") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/0b62b763-b325-499d-8206-4f1d354a3f3d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/2a9309cc-79e7-479c-ab5d-e36fb01501c3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a626156e-d4b9-4c78-b816-3dc9dcecdaf5"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/edbfded8-58b0-4c33-ba55-66a325a1b8e4"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f2b8e171-5b62-402a-8228-906cadcfad9d"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/843908a6-3a9c-4b81-8146-ddbddcf625df"
       (reference "C1") (unit 1) (value "C") (footprint "Capacitors_SMD:C_0805_HandSoldering")
@@ -4829,6 +4841,12 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/2b4df5a7-c8c5-44ae-9a36-2f3238cd3da8"
       (reference "J3") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/15285a82-8026-4c1a-875d-764403da219c"
+      (reference "J?") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/32cf6c22-092f-47a1-90de-a0ed44f63e14"
+      (reference "J?") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "")
     )
     (path "/449a4130-5198-43c7-aa17-3cb30c17454b"
       (reference "PT0") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
