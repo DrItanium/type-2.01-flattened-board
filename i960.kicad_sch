@@ -2407,8 +2407,8 @@
     )
   )
 
+  (bus_alias "CHIPSET" (members "~{BURST_LAST}" "~{IN_TRANSACTION}" "~{DO_CYCLE}" "~{BOOT_SUCCESSFUL}" "HLDA" "HOLD" "~{CHIPSET_BOOTED}" "~{RESET960}" "~{READY}" "~{INTR[0..3]}" "CLK2" "CLK" "L[0..15]" "A[0..1]" "~{EN}"))
   (bus_alias "ADR960" (members "A[0..31]" "D[0..15]" "BURST_A[1..3]" "~{DEN}" "DT\\~{R}" "~{BURST_LAST}" "~{IN_TRANSACTION}" "~{DO_CYCLE}" "~{BOOT_SUCCESSFUL}" "W\\~{R}" "~{BE[0..1]}" "HLDA" "~{LAST16}" "~{LAST_UP8}" "~{LAST_LO8}" "~{BURST16}" "~{BURST_UP8}" "~{BURST_LO8}" "~{GOOFY}"))
-  (bus_alias "CHIPSET" (members "~{BURST_LAST}" "~{IN_TRANSACTION}" "~{DO_CYCLE}" "~{BOOT_SUCCESSFUL}" "HLDA" "HOLD" "~{CHIPSET_BOOTED}" "~{RESET960}" "~{READY}" "~{INTR[0..3]}" "CLK2" "CLK" "L[0..15]" "A[0..2]" "~{EN}"))
 
   (junction (at 429.006 220.726) (diameter 0) (color 0 0 0 0)
     (uuid 15ac8a85-c34b-4b71-b0a4-6d73f1ff824f)
