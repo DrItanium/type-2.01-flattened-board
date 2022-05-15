@@ -3092,7 +3092,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 93dda985-148f-4cbf-9a88-2e65f7f87968)
   )
-  (label "GCM4.~{SUCCESSFUL_BOOT}" (at 327.152 208.788 0)
+  (label "GCM4.~{BOOT_SUCCESSFUL}" (at 327.152 208.788 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9452ee6b-df3c-4347-8c92-d1a2075af6f3)
   )
@@ -3929,12 +3929,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9d5fdf08-962c-4394-804e-283f89a79cd3"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/31a9e828-6e94-47c2-9518-d862a7b5136c"
-      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4c88d311-c28b-4ffe-9d05-989f2bad397d"
-      (reference "#PWR020") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4b52673a-fc7f-4f1e-b8a3-fcd9486fa693"
       (reference "#PWR021") (unit 1) (value "+5V") (footprint "")
     )
@@ -4151,6 +4145,18 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4e2010f5-afc6-4273-90b2-4a763055ebca"
       (reference "#PWR0183") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/1e294544-ce70-4de6-9890-f21741963944"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/3380c487-bb0a-42c5-b95c-b06d9421a9ad"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4c3dfe5c-16df-4dd9-aa59-c633db60743f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/63f0cea3-d5ea-446d-8f89-e5350143aa65"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d72e4e5d-8509-489c-a08d-c829dc107565"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -4259,9 +4265,6 @@
     (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/c1ae408c-8a4f-4105-a1e4-25705c794b80"
       (reference "C38") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/42153af1-d7c8-4cf6-a2d1-c3db3e04014b"
-      (reference "J1") (unit 1) (value "Conn_01x06") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/33bd98da-d46f-4bfb-9c9b-dd9888ac907e"
       (reference "J2") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
     )
@@ -4270,6 +4273,9 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/32cf6c22-092f-47a1-90de-a0ed44f63e14"
       (reference "J5") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f321a362-c920-4d4a-913f-cce17b7b3681"
+      (reference "J?") (unit 1) (value "DIN41612_02x16_AC") (footprint "Connector_DIN:DIN41612_C2_2x16_Female_Vertical_THT")
     )
     (path "/449a4130-5198-43c7-aa17-3cb30c17454b"
       (reference "PT0") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
