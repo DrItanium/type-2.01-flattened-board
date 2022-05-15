@@ -678,7 +678,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 30a772f8-d860-4716-975d-2fdb1390de94)
   )
-  (label "GCM4.~{DEV_EN3}" (at 104.648 65.532 0)
+  (label "i960.~{DEV_EN3}" (at 104.648 65.532 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 34e7cc8e-5aa3-4795-a057-350db0499e78)
   )
