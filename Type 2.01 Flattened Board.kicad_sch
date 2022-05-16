@@ -1209,7 +1209,6 @@
     )
   )
 
-  (bus_alias "GCLK" (members "IO[0..7]"))
   (bus_alias "CCL" (members "IN[0..11]" "OUT[0..3]"))
 
   (junction (at 252.222 87.122) (diameter 0) (color 0 0 0 0)
@@ -5155,6 +5154,12 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4e2010f5-afc6-4273-90b2-4a763055ebca"
       (reference "#PWR0183") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/11f5ea44-e95e-44a6-9b70-a2b2dc9d678c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9f611c41-f7e4-48f4-b326-f77ae894ab37"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/a603efd0-765b-4f7d-92b0-11dbb16a5a04"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
@@ -5167,11 +5172,17 @@
     (path "/d6f1ee4f-a40d-4856-b358-411c59a0d1c8"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dcaa8c6e-311d-4cb6-a963-255e98f7b63d"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
     (path "/df54aec6-69d3-4186-99e9-0bb6b50c79aa"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/e8f62710-0dac-43de-a388-c4e4c29fb6c8"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/ea5b616e-0e33-42c4-9334-719ea2ce303e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9a534611-7091-4552-9ad3-78dcacd5c593"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -5274,6 +5285,12 @@
     )
     (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/c1ae408c-8a4f-4105-a1e4-25705c794b80"
       (reference "C38") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/3cd99b88-72e7-45bd-8499-cf97abeaa368"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/6d82f022-4a02-40a0-b2ab-af3c3ea03eec"
+      (reference "C?") (unit 1) (value "C") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f321a362-c920-4d4a-913f-cce17b7b3681"
       (reference "J1") (unit 1) (value "DIN41612_02x16_AC") (footprint "Connector_DIN:DIN41612_C2_2x16_Female_Vertical_THT")
@@ -5427,6 +5444,12 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/5ea2dd23-0488-4b16-adb4-8c5f40a1c7fe"
       (reference "U19") (unit 1) (value "74AHC573") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/8c9b932d-0e63-4029-bc54-3e2c2227f5e1"
+      (reference "U?") (unit 1) (value "74HC245") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f6c223c3-202e-4929-bbb4-08ab71826b52"
+      (reference "U?") (unit 1) (value "74HC245") (footprint "")
     )
     (path "/2bd6b25f-a519-4224-8dd9-2e42d262ce2e"
       (reference "XA1") (unit 1) (value "Adafruit Grand Central M4") (footprint "Arduino_Alarm_Siren:Arduino_Mega2560_Shield")
