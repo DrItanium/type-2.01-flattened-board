@@ -3676,9 +3676,6 @@
     (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/a685fc36-4bf3-4af6-ba0d-76e84fb6976e"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/eca025d3-1945-4a1c-930a-e419169f5e7e"
-      (reference "#PWR05") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/948941d9-5990-454f-9b30-189af36f1623"
       (reference "#PWR06") (unit 1) (value "+5V") (footprint "")
     )
@@ -3925,9 +3922,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/540ece8d-6ae8-4756-b35e-a928549bbb9e"
       (reference "#PWR0178") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a2e053d6-7f4b-48c5-b892-f2e5d4e6ee47"
-      (reference "#PWR0181") (unit 1) (value "GND") (footprint "")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/8a89ffaa-aee7-4b73-a382-b1073ef39f49"
       (reference "#PWR0182") (unit 1) (value "VCC") (footprint "")
     )
@@ -3969,9 +3963,6 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9c1a5e5e-6c14-4a4b-b42a-3deb660b3826"
       (reference "C13") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a7ed324b-8f80-4e5d-9a86-1ae32ef83b51"
-      (reference "C14") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/b4574386-585f-44d1-a831-0eb6c71ebc11"
       (reference "C15") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -4155,9 +4146,6 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/44958ce4-c404-42f0-9038-33f2516eee8a"
       (reference "U9") (unit 16) (value "i960Sx_PLCC84") (footprint "Package_LCC:PLCC-84_THT-Socket")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d1056b5e-962e-4eaa-9e0f-9615a5da20d4"
-      (reference "U10") (unit 1) (value "74AHC138") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/bc36a70a-0d40-4e22-ac37-b933b8938b31"
       (reference "U11") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
