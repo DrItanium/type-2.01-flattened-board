@@ -2289,8 +2289,8 @@
     )
   )
 
-  (bus_alias "ADR960" (members "A[0..31]" "D[0..15]" "BURST_A[1..3]" "~{DEN}" "DT\\~{R}" "W\\~{R}" "~{BE[0..1]}" "~{LAST16}" "~{LAST_UP8}" "~{LAST_LO8}" "~{BURST16}" "~{BURST_UP8}" "~{BURST_LO8}" "~{GOOFY}" "~{DATA_LINE_EN}" "~{LAST_GOOFY}" "CLK2" "CLK"))
   (bus_alias "CHIPSET" (members "~{BURST_LAST}" "~{IN_TRANSACTION}" "~{DO_CYCLE}" "~{BOOT_SUCCESSFUL}" "HLDA" "HOLD" "~{CHIPSET_BOOTED}" "~{RESET960}" "~{READY}" "~{INTR[0..3]}" "CLK2" "CLK" "L[0..15]" "A[0..1]" "~{EN}" "~{DEV_EN[0..3]}" "USART_ME_TX" "USART_ME_RX" "USART_PIC_TX" "USART_PIC_RX"))
+  (bus_alias "ADR960" (members "A[0..31]" "D[0..15]" "BURST_A[1..3]" "~{DEN}" "DT\\~{R}" "W\\~{R}" "~{BE[0..1]}" "~{DATA_LINE_EN}" "CLK2" "CLK"))
 
   (junction (at 299.974 362.966) (diameter 0) (color 0 0 0 0)
     (uuid 01bfddc2-a04d-43d8-9781-3adfc7e6ced7)
