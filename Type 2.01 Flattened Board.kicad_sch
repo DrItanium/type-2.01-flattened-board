@@ -3681,6 +3681,9 @@
     (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/13ab2662-bf47-4d42-ae56-2728a3163557"
       (reference "#PWR024") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a96580a7-f1bd-4b59-9ff8-d261d4483f20"
+      (reference "#PWR025") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/b9e603ae-e7ab-4bfd-8f6f-cbe58203ff2f"
       (reference "#PWR029") (unit 1) (value "+5V") (footprint "")
     )
@@ -4019,6 +4022,9 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/76e23d85-eb4f-45f2-8ee4-aaf466715eba"
       (reference "RN2") (unit 1) (value "R_Network04") (footprint "Resistor_THT:R_Array_SIP5")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/db68b720-54e6-40b9-99d4-bd27bf70caf1"
+      (reference "RN3") (unit 1) (value "R_Network04") (footprint "Resistor_THT:R_Array_SIP5")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/e08e613c-cee3-44ed-9b78-83e75c549844"
       (reference "U1") (unit 1) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
