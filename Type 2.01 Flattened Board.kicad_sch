@@ -3923,7 +3923,7 @@
       (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/82162cad-cf40-4934-bfe6-4e326b594c0e"
-      (reference "C5") (unit 1) (value "0.1uF") (footprint "")
+      (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9cfa0490-62d2-42c1-a2c0-945458fd94e2"
       (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -4019,7 +4019,7 @@
       (reference "C38") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/bdd8d260-7c7e-4f07-9a14-18378a0e4eb9"
-      (reference "J1") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "")
+      (reference "J1") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/15285a82-8026-4c1a-875d-764403da219c"
       (reference "J4") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
@@ -4067,7 +4067,7 @@
       (reference "U2") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
     )
     (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/3684b803-c608-48d3-b75e-c7f0eb83fc82"
-      (reference "U3") (unit 1) (value "74AHC138") (footprint "")
+      (reference "U3") (unit 1) (value "74AHC138") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/331639a4-5c2a-4a3b-bfa9-42ccfdbb32e7"
       (reference "U4") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
@@ -4184,7 +4184,7 @@
       (reference "U16") (unit 1) (value "ATmega4809-PF") (footprint "Package_DIP:DIP-40_W15.24mm_Socket")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/90259628-9968-49ff-9862-10de28e274d7"
-      (reference "U17") (unit 1) (value "74AHC157") (footprint "")
+      (reference "U17") (unit 1) (value "74AHC157") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a3a58868-df38-4563-b5f7-e5b24114f6fd"
       (reference "U18") (unit 1) (value "74AHC573") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
