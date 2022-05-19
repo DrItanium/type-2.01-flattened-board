@@ -3910,6 +3910,9 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4e2010f5-afc6-4273-90b2-4a763055ebca"
       (reference "#PWR0183") (unit 1) (value "GND") (footprint "")
     )
+    (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/13ab2662-bf47-4d42-ae56-2728a3163557"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9a534611-7091-4552-9ad3-78dcacd5c593"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -4027,6 +4030,9 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/32cf6c22-092f-47a1-90de-a0ed44f63e14"
       (reference "J5") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
     )
+    (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/f44840e0-4e62-46c3-b359-111ea9bf603d"
+      (reference "J?") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "")
+    )
     (path "/449a4130-5198-43c7-aa17-3cb30c17454b"
       (reference "PT0") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
     )
@@ -4065,9 +4071,6 @@
     )
     (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/7861ee13-f8ba-4e98-aafe-09acd8610749"
       (reference "U2") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
-    )
-    (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/3684b803-c608-48d3-b75e-c7f0eb83fc82"
-      (reference "U3") (unit 1) (value "74AHC138") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/331639a4-5c2a-4a3b-bfa9-42ccfdbb32e7"
       (reference "U4") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
@@ -4191,6 +4194,9 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/5ea2dd23-0488-4b16-adb4-8c5f40a1c7fe"
       (reference "U19") (unit 1) (value "74AHC573") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
+    )
+    (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/26023b37-ad79-4351-a8df-7f7f1be54d39"
+      (reference "U?") (unit 1) (value "74HC245") (footprint "")
     )
     (path "/2bd6b25f-a519-4224-8dd9-2e42d262ce2e"
       (reference "XA1") (unit 1) (value "Adafruit Grand Central M4") (footprint "Arduino_Alarm_Siren:Arduino_Mega2560_Shield")
