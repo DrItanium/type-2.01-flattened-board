@@ -4925,6 +4925,11 @@
     (uuid fe49ebb6-bbda-4c3d-a4f0-642e4975484f)
   )
 
+  (text "On reset we have a default reset signal setup just in case we want to keep the pic \"disabled\" from the perspective of the i960.\nIt also allows for full disable in case I screw up as well. "
+    (at 80.772 162.56 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3bfde48e-83f4-4728-b51e-03a7b2778c3d)
+  )
   (text "If the management engine is down the PIC should also be \ndown as well! It should not come out of reset until the \nmanagement engine says so!"
     (at 18.288 218.694 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
