@@ -3697,18 +3697,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9d5fdf08-962c-4394-804e-283f89a79cd3"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/3380c487-bb0a-42c5-b95c-b06d9421a9ad"
-      (reference "#PWR017") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/63f0cea3-d5ea-446d-8f89-e5350143aa65"
-      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/1e294544-ce70-4de6-9890-f21741963944"
-      (reference "#PWR019") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4c3dfe5c-16df-4dd9-aa59-c633db60743f"
-      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d6d8bb8a-c2f6-49f9-b05a-47e42649350b"
       (reference "#PWR021") (unit 1) (value "+5V") (footprint "")
     )
@@ -4011,9 +3999,6 @@
     )
     (path "/2d26b58a-1259-4cf5-aa8e-80f6b07f6859/c1ae408c-8a4f-4105-a1e4-25705c794b80"
       (reference "C38") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f321a362-c920-4d4a-913f-cce17b7b3681"
-      (reference "J1") (unit 1) (value "DIN41612_02x16_AC") (footprint "Connector_DIN:DIN41612_C2_2x16_Female_Vertical_THT")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/15285a82-8026-4c1a-875d-764403da219c"
       (reference "J4") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
