@@ -1,0 +1,22 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 2f6973ba-af38-4589-be0f-4ba9d668790c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 81.534 49.022) (size 29.718 24.638) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f89d171d-6b09-4fb6-818b-929046c1d1b5)
+    (property "Sheet name" "Lower Half" (id 0) (at 81.534 48.3104 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "8 bit to 4 bit mux.kicad_sch" (id 1) (at 81.534 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+)

@@ -1005,8 +1005,8 @@
     )
   )
 
-  (bus_alias "MetroM4" (members "D[0..13]" "SCL" "SDA" "AREF" "A[0..5]" "MISO" "MOSI" "SCK" "~{RESET[0..1]}" "VIN"))
   (bus_alias "CCL" (members "IN[0..11]" "OUT[0..3]"))
+  (bus_alias "MetroM4" (members "D[0..13]" "SCL" "SDA" "AREF" "A[0..5]" "MISO" "MOSI" "SCK" "~{RESET[0..1]}" "VIN"))
 
   (junction (at 54.102 162.052) (diameter 0) (color 0 0 0 0)
     (uuid 12ec7a6e-115f-4562-a917-8a1030bfed62)
@@ -4686,6 +4686,8 @@
 
   (sheet_instances
     (path "/" (page "1"))
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dd1adba1-aa30-43da-94e1-62f0c4d7e8cd" (page "4"))
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dd1adba1-aa30-43da-94e1-62f0c4d7e8cd/f89d171d-6b09-4fb6-818b-929046c1d1b5" (page "5"))
     (path "/9e7b68f8-8caa-4a1d-85d2-3f3d0dd0043a" (page "12"))
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c" (page "13"))
   )
@@ -4970,6 +4972,12 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4e2010f5-afc6-4273-90b2-4a763055ebca"
       (reference "#PWR0183") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dd1adba1-aa30-43da-94e1-62f0c4d7e8cd/f89d171d-6b09-4fb6-818b-929046c1d1b5/0df489b0-4ecd-4974-9c32-fa5fe6eca40b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dd1adba1-aa30-43da-94e1-62f0c4d7e8cd/f89d171d-6b09-4fb6-818b-929046c1d1b5/81be7e0d-3f34-4fd5-ab8b-3d01f303f21a"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9a534611-7091-4552-9ad3-78dcacd5c593"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -5068,6 +5076,9 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9f9ad493-1a32-4442-bc36-20b73ab46590"
       (reference "C37") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dd1adba1-aa30-43da-94e1-62f0c4d7e8cd/f89d171d-6b09-4fb6-818b-929046c1d1b5/f56d15e9-1688-4e03-b10c-4bf2f46b9e72"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/edc7f11d-9473-4a50-9422-96c89967f8e0"
       (reference "J1") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "")
@@ -5251,6 +5262,9 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a9da0e26-b233-4f43-9ae0-8520049832c1"
       (reference "U?") (unit 1) (value "74LS157") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/dd1adba1-aa30-43da-94e1-62f0c4d7e8cd/f89d171d-6b09-4fb6-818b-929046c1d1b5/ca3b5ad5-468e-480c-b3ed-10240fca30d4"
+      (reference "U?") (unit 1) (value "74AHC157") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/2bd6b25f-a519-4224-8dd9-2e42d262ce2e"
       (reference "XA1") (unit 1) (value "Adafruit Grand Central M4") (footprint "Arduino_Alarm_Siren:Arduino_Mega2560_Shield")
