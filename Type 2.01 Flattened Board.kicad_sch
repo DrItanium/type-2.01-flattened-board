@@ -5924,7 +5924,7 @@
       (reference "XA1") (unit 1) (value "Adafruit Grand Central M4") (footprint "Arduino_Alarm_Siren:Arduino_Mega2560_Shield")
     )
     (path "/15934478-7565-4b4f-a057-1d254cb17ff8"
-      (reference "XA2") (unit 1) (value "Arduino_Uno_Shield") (footprint "")
+      (reference "XA2") (unit 1) (value "Arduino_Uno_Shield") (footprint "Arduino_Alarm_Siren:Arduino_Uno_Shield")
     )
   )
 )
