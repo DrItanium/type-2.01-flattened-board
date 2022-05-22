@@ -7645,7 +7645,7 @@
       (reference "C37") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/b36d439a-d99c-48b7-9304-5c1fb01e6a2f"
-      (reference "J1") (unit 1) (value "Conn_02x28_Odd_Even") (footprint "")
+      (reference "J1") (unit 1) (value "Conn_02x28_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x28_P2.54mm_Vertical")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/0587a1df-a87b-4e93-9bf6-7924f8b056cf"
       (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -7660,7 +7660,10 @@
       (reference "J5") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
     )
     (path "/1ec4840c-6309-4749-b5c8-95cc02294480"
-      (reference "J6") (unit 1) (value "Conn_02x28_Odd_Even") (footprint "")
+      (reference "J6") (unit 1) (value "Conn_02x28_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x28_P2.54mm_Vertical")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/16a1658b-7ca0-4226-84dc-943a80af74be"
+      (reference "J?") (unit 1) (value "Conn_01x09") (footprint "")
     )
     (path "/449a4130-5198-43c7-aa17-3cb30c17454b"
       (reference "PT0") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
