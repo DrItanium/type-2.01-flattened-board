@@ -4497,12 +4497,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/c04bb27d-2372-4ef5-a585-abe0ea8d88b6"
       (reference "#PWR018") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4e45f19a-84df-43f4-a180-7472f0a6c7ac"
-      (reference "#PWR019") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9c0597ea-e2aa-46c5-aa8d-2db662120081"
-      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d6d8bb8a-c2f6-49f9-b05a-47e42649350b"
       (reference "#PWR021") (unit 1) (value "+5V") (footprint "")
     )
@@ -4737,9 +4731,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/82162cad-cf40-4934-bfe6-4e326b594c0e"
       (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9cfa0490-62d2-42c1-a2c0-945458fd94e2"
-      (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
     (path "/9e7b68f8-8caa-4a1d-85d2-3f3d0dd0043a/d0a440b9-dade-4201-8ce7-7e795cea0b25"
       (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -4838,6 +4829,9 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/32cf6c22-092f-47a1-90de-a0ed44f63e14"
       (reference "J5") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/798272cc-cf96-4676-8fae-778d0039df9b"
+      (reference "J?") (unit 1) (value "Conn_01x04") (footprint "")
     )
     (path "/449a4130-5198-43c7-aa17-3cb30c17454b"
       (reference "PT0") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
@@ -4971,23 +4965,11 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/b1dd5a37-ec90-4bf0-8c6b-08ea3ab5c89f"
       (reference "U13") (unit 4) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a1bdc6ba-0305-4bdb-a96e-c8da9c3560b6"
-      (reference "U13") (unit 5) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/98e2f54a-69f0-40a1-ac24-264a97767ed5"
-      (reference "U13") (unit 6) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f5f314eb-e2c9-40c7-b0cf-9d86e6db41b1"
       (reference "U13") (unit 7) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/1f0ff6aa-7535-4442-bea5-466bb7deaf93"
       (reference "U14") (unit 1) (value "ATmega4809-PF") (footprint "Package_DIP:DIP-40_W15.24mm_Socket")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f4052609-c36c-4e1b-8264-ce6c8ffd7661"
-      (reference "U15") (unit 1) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/321d097d-a76b-406c-895e-fac95043fbe5"
-      (reference "U15") (unit 7) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d6461bcc-6afc-408b-a622-8cbfaac56627"
       (reference "U16") (unit 1) (value "ATmega4809-PF") (footprint "Package_DIP:DIP-40_W15.24mm_Socket")
