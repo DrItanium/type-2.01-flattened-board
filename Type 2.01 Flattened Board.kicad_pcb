@@ -4007,7 +4007,7 @@
 
   (footprint "Arduino_Alarm_Siren:Arduino_Mega2560_Shield" (layer "B.Cu")
     (tedit 5A8605D3) (tstamp 5097527d-0bf6-4dfa-8a1a-cae7520c8e86)
-    (at -0.00762 10.157956)
+    (at -11.73484 10.05586)
     (descr "https://store.arduino.cc/arduino-mega-2560-rev3")
     (property "Sheetfile" "Type 2.01 Flattened Board.kicad_sch")
     (property "Sheetname" "")
