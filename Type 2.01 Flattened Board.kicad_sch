@@ -7764,11 +7764,11 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/12b68e12-3ddd-4be1-a5ef-31d9ce47df93"
       (reference "U13") (unit 2) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/6b29e6b8-b138-4b1d-ab71-a05b9b368acc"
-      (reference "U13") (unit 3) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/b1dd5a37-ec90-4bf0-8c6b-08ea3ab5c89f"
       (reference "U13") (unit 4) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/6b29e6b8-b138-4b1d-ab71-a05b9b368acc"
+      (reference "U13") (unit 6) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f5f314eb-e2c9-40c7-b0cf-9d86e6db41b1"
       (reference "U13") (unit 7) (value "74AHC04") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
