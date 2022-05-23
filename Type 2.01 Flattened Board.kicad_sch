@@ -7680,9 +7680,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/afad75f8-0ac4-4b1d-b080-f0ca6ba269a2"
       (reference "RN1") (unit 1) (value "R_Network12") (footprint "Resistor_THT:R_Array_SIP13")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/e08e613c-cee3-44ed-9b78-83e75c549844"
-      (reference "U1") (unit 1) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
-    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f2806872-0627-4bbd-8191-d9e188c28eb2"
       (reference "U1") (unit 2) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
