@@ -7751,14 +7751,14 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a52d2df1-c8b5-4147-a702-c0b9acccc68c"
       (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/076fa4c6-06e5-4090-a1ae-aad4c109f0c0"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d8f2a0bf-f685-461e-9c59-599184f44107"
+      (reference "R5") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/300496ea-2d26-4906-8c04-178876ec4114"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d8f2a0bf-f685-461e-9c59-599184f44107"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/076fa4c6-06e5-4090-a1ae-aad4c109f0c0"
+      (reference "R7") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/7a849840-e6ba-4602-9d7a-31e4a7e68c35"
       (reference "U1") (unit 1) (value "74LVC1G79") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
