@@ -6190,10 +6190,10 @@
     (property "Reference" "XA2" (id 0) (at 112.014 208.7679 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "Arduino_Uno_Shield" (id 1) (at 112.014 211.7613 0)
+    (property "Value" "" (id 1) (at 112.014 211.7613 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Arduino_Alarm_Siren:Arduino_Uno_Shield" (id 2) (at 157.734 148.082 0)
+    (property "Footprint" "" (id 2) (at 157.734 148.082 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://store.arduino.cc/arduino-uno-rev3" (id 3) (at 157.734 148.082 0)
@@ -6242,8 +6242,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1706f737-8051-467c-8052-d40f74f7b5ea)
     (property "Reference" "U20" (id 0) (at 299.212 90.9152 0))
-    (property "Value" "Adafruit_FeatherWing" (id 1) (at 299.212 93.4521 0))
-    (property "Footprint" "Module:Adafruit_Feather" (id 2) (at 299.212 138.938 0)
+    (property "Value" "" (id 1) (at 299.212 93.4521 0))
+    (property "Footprint" "" (id 2) (at 299.212 138.938 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 299.212 138.938 0)
@@ -6740,8 +6740,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 742b38f6-ec1a-4103-8e76-cd7832d10c3d)
     (property "Reference" "U21" (id 0) (at 299.212 168.6392 0))
-    (property "Value" "Adafruit_FeatherWing" (id 1) (at 299.212 171.1761 0))
-    (property "Footprint" "Module:Adafruit_Feather" (id 2) (at 299.212 216.662 0)
+    (property "Value" "" (id 1) (at 299.212 171.1761 0))
+    (property "Footprint" "" (id 2) (at 299.212 216.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 299.212 216.662 0)
@@ -7278,10 +7278,10 @@
     (path "/d0f5b985-98fd-42f4-812a-381ebb999e4e"
       (reference "#PWR020") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d6d8bb8a-c2f6-49f9-b05a-47e42649350b"
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/fe10b31f-3641-4d5d-af8e-a2660d525010"
       (reference "#PWR021") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/64e9127f-9bc2-4977-9774-9297f90564e5"
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4ffa09d5-3a0d-4e06-85d5-c98d1c7bdafb"
       (reference "#PWR022") (unit 1) (value "GND") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/d569b94e-1085-4f52-aaa4-1dcb6a13a3be"
@@ -7352,6 +7352,9 @@
     )
     (path "/41b323b3-85b5-436e-b735-57e11c744519"
       (reference "#PWR045") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/c4575f8d-28d3-4a44-9ba6-1b11f4fd89ad"
+      (reference "#PWR046") (unit 1) (value "GND") (footprint "")
     )
     (path "/464d9bb7-70d4-4916-828d-abf8116c6af4"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
@@ -7536,7 +7539,7 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/4e2010f5-afc6-4273-90b2-4a763055ebca"
       (reference "#PWR0183") (unit 1) (value "GND") (footprint "")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9a534611-7091-4552-9ad3-78dcacd5c593"
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/7079a5d5-e062-4bc2-8d93-e6ed5f010010"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/958002c5-2460-48b3-b5ad-d1a98097ca41/e5563f61-85eb-4663-a642-15f4bd92d70e"
@@ -7638,8 +7641,8 @@
     (path "/b36d439a-d99c-48b7-9304-5c1fb01e6a2f"
       (reference "J1") (unit 1) (value "Conn_02x28_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x28_P2.54mm_Vertical")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/0587a1df-a87b-4e93-9bf6-7924f8b056cf"
-      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/6587ea0c-8315-4741-8890-07c43b75dfc0"
+      (reference "J2") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/798272cc-cf96-4676-8fae-778d0039df9b"
       (reference "J3") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
@@ -7680,11 +7683,8 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/afad75f8-0ac4-4b1d-b080-f0ca6ba269a2"
       (reference "RN1") (unit 1) (value "R_Network12") (footprint "Resistor_THT:R_Array_SIP13")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f2806872-0627-4bbd-8191-d9e188c28eb2"
-      (reference "U1") (unit 2) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
-    )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/9212158f-ce01-4607-b21f-7fadc0e9dbde"
-      (reference "U1") (unit 3) (value "74AHC74") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/7a849840-e6ba-4602-9d7a-31e4a7e68c35"
+      (reference "U1") (unit 1) (value "74LVC1G79") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/958002c5-2460-48b3-b5ad-d1a98097ca41/02f03cc4-5776-4696-baf1-83d07e442c8f"
       (reference "U2") (unit 1) (value "74AHC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
