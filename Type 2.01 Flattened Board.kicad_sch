@@ -7727,8 +7727,17 @@
     (path "/1ec4840c-6309-4749-b5c8-95cc02294480"
       (reference "J6") (unit 1) (value "Conn_02x28_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x28_P2.54mm_Vertical")
     )
-    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/1ff5b180-3921-470b-855a-0302b01ec189"
-      (reference "J7") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/c599d662-87a2-4575-a2b8-6d45b97518eb"
+      (reference "J7") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/79042f55-b749-4b4b-bb24-db6fd81e66b2"
+      (reference "J8") (unit 1) (value "Conn_01x01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/b3e59c92-9cfc-44fe-9588-1a46f1739215"
+      (reference "J9") (unit 1) (value "Conn_01x01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/5598a9dd-2eca-4139-90bd-b8239e9396bc"
+      (reference "J10") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/449a4130-5198-43c7-aa17-3cb30c17454b"
       (reference "PT0") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
