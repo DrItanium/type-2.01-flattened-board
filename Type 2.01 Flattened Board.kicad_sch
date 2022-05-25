@@ -1963,8 +1963,8 @@
     )
   )
 
-  (bus_alias "MetroM4" (members "D[0..13]" "SCL" "SDA" "AREF" "A[0..5]" "MISO" "MOSI" "SCK" "~{RESET[0..1]}" "VIN"))
   (bus_alias "CCL" (members "IN[0..11]" "OUT[0..3]"))
+  (bus_alias "MetroM4" (members "D[0..13]" "SCL" "SDA" "AREF" "A[0..5]" "MISO" "MOSI" "SCK" "~{RESET[0..1]}" "VIN"))
 
   (junction (at 54.102 162.052) (diameter 0) (color 0 0 0 0)
     (uuid 12ec7a6e-115f-4562-a917-8a1030bfed62)
