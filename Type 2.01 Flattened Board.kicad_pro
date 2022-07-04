@@ -463,6 +463,14 @@
       "Feather Copro1"
     ],
     [
+      "cbcea53d-fb7f-438c-ac33-367f3e9e1e9e",
+      "AddressMux1"
+    ],
+    [
+      "051e119d-08b2-49de-8906-ab58324f0eeb",
+      "AddressMux2"
+    ],
+    [
       "c9365d17-b900-4bd3-b96d-5359e9255bd9",
       "Feather Copro0"
     ],
@@ -471,24 +479,12 @@
       "AddressMux"
     ],
     [
-      "958002c5-2460-48b3-b5ad-d1a98097ca41",
-      "Address2431"
-    ],
-    [
       "9e7b68f8-8caa-4a1d-85d2-3f3d0dd0043a",
       "Data Lines"
     ],
     [
       "cd4173d7-5549-43d9-b4b1-83989500a84c",
       "i960"
-    ],
-    [
-      "3aee4513-c5b1-4f44-b8dd-b500bdc9e520",
-      "Address1623"
-    ],
-    [
-      "bee7a6b9-af3d-4564-a492-4ce32686dc2e",
-      "CTRL07"
     ]
   ],
   "text_variables": {}
