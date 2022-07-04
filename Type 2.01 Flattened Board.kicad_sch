@@ -5316,6 +5316,42 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/ad70ea3b-361f-4d98-aa88-4418bfc660cc"
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
     )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/b66c4163-6664-4006-bf2a-84dc4b6cdd35"
+      (reference "#PWR048") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/83c89139-f22f-4b4b-90fb-04f1f8e1c43a"
+      (reference "#PWR049") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/b61b1f41-4401-486d-b3b4-8077e1b8c408"
+      (reference "#PWR050") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/2b4b4517-b6a5-4767-b018-391b5354ca33"
+      (reference "#PWR051") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/00012a20-af70-4dcf-a68b-bbed6f0349b5"
+      (reference "#PWR052") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/433f8a1e-c70f-48f1-ab0f-b73ff8961ee4"
+      (reference "#PWR053") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/e2d4f369-3f54-40ad-84cc-25c4a88f6467"
+      (reference "#PWR054") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/89a81393-6658-4b9a-8c17-43b2e30156cc"
+      (reference "#PWR055") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/67251d12-7624-4150-9064-5c88bb5d6f56"
+      (reference "#PWR056") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/5bd5789c-e35d-42dc-946e-e014bd4353bd"
+      (reference "#PWR057") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/ad25790b-2f0d-4fd0-af8f-285b9d8997e7"
+      (reference "#PWR058") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/89b64148-5dea-4123-b7e0-208350c43f4a"
+      (reference "#PWR059") (unit 1) (value "GND") (footprint "")
+    )
     (path "/464d9bb7-70d4-4916-828d-abf8116c6af4"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
@@ -5457,42 +5493,6 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/6f497205-4e06-42ac-b13a-0fa4a3528e9c"
       (reference "#PWR0169") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/00012a20-af70-4dcf-a68b-bbed6f0349b5"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/2b4b4517-b6a5-4767-b018-391b5354ca33"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/433f8a1e-c70f-48f1-ab0f-b73ff8961ee4"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/5bd5789c-e35d-42dc-946e-e014bd4353bd"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/67251d12-7624-4150-9064-5c88bb5d6f56"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/83c89139-f22f-4b4b-90fb-04f1f8e1c43a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/89a81393-6658-4b9a-8c17-43b2e30156cc"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/89b64148-5dea-4123-b7e0-208350c43f4a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/ad25790b-2f0d-4fd0-af8f-285b9d8997e7"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/b61b1f41-4401-486d-b3b4-8077e1b8c408"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/b66c4163-6664-4006-bf2a-84dc4b6cdd35"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/e2d4f369-3f54-40ad-84cc-25c4a88f6467"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/29f6c0c8-1442-46e8-ab77-c6830f4285ac"
       (reference "#SUPPLY01") (unit 1) (value "VCCIO") (footprint "XXX-00000")
     )
@@ -5631,11 +5631,11 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/15588c18-b55b-4c7c-83c0-ba9a59dc7e6e"
       (reference "J3") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
+    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/bbd58fd1-7e80-45ae-a635-9f0665845b91"
+      (reference "J4") (unit 1) (value "Conn_02x28_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x28_P2.54mm_Vertical")
+    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/32cf6c22-092f-47a1-90de-a0ed44f63e14"
       (reference "J5") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
-    )
-    (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/bbd58fd1-7e80-45ae-a635-9f0665845b91"
-      (reference "J?") (unit 1) (value "Conn_02x28_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x28_P2.54mm_Vertical")
     )
     (path "/449a4130-5198-43c7-aa17-3cb30c17454b"
       (reference "PT0") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
@@ -5776,7 +5776,7 @@
       (reference "U18") (unit 1) (value "74AHC573") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
     )
     (path "/adcffc53-a4e6-4697-99b6-ab5eac00ddee/bef86fba-2eba-47e6-9eba-21b6a503bcdf"
-      (reference "U?") (unit 1) (value "Adafruit_FeatherWing") (footprint "Module:Adafruit_Feather")
+      (reference "U19") (unit 1) (value "Adafruit_FeatherWing") (footprint "Module:Adafruit_Feather")
     )
     (path "/2bd6b25f-a519-4224-8dd9-2e42d262ce2e"
       (reference "XA1") (unit 1) (value "Adafruit Grand Central M4") (footprint "Arduino_Alarm_Siren:Arduino_Mega2560_Shield")
