@@ -2836,6 +2836,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b4e563bd-148a-4797-96e5-0abdb0c87cd3)
   )
+  (wire (pts (xy 256.54 167.005) (xy 271.145 167.005))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b50d6be5-8954-4e94-bc2c-4ec7bb501968)
+  )
   (bus (pts (xy 189.992 167.132) (xy 189.992 169.672))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b5adc566-4574-4080-9518-73f6c07cfeb2)
@@ -3139,6 +3143,10 @@
     (uuid edcab7de-4596-4c08-ba01-3c8af6057c2f)
   )
 
+  (wire (pts (xy 256.54 145.415) (xy 271.145 145.415))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ee9db9dd-a64e-437b-b13f-28e594630edc)
+  )
   (wire (pts (xy 139.7 88.392) (xy 187.452 88.392))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid efb170d4-b586-40f3-bb0e-8e0f7aa66a07)
@@ -3635,8 +3643,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2c8e3a88-47e3-44b6-b259-f35a067c0819)
   )
-  (label "BUS.PA14" (at 382.905 79.375 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "BUS.PA14" (at 256.54 145.415 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2cf48125-aede-4f7d-bd29-808ffc76b3d6)
   )
   (label "BUS.PA17" (at 347.345 45.72 180)
@@ -4039,8 +4047,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b6eb8772-a7dd-4055-a5fd-bef41a63a960)
   )
-  (label "BUS.PA7" (at 382.905 74.295 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "BUS.PA7" (at 256.54 167.005 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bc1cde85-03da-4a8f-ae7f-c5db3c7cae66)
   )
   (label "BUS.PD12" (at 347.345 81.28 180)
@@ -4967,14 +4975,14 @@
     (pin "7" (uuid e2039d4e-a035-48f7-8f28-a26a49c3030e))
   )
 
-  (sheet (at 271.145 153.67) (size 17.145 13.97) (fields_autoplaced)
+  (sheet (at 271.145 153.67) (size 17.145 15.24) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 33147676-43f8-493a-9a6a-8cf437a2c6b4)
     (property "Sheet name" "Feather Copro1" (id 0) (at 271.145 152.9584 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "FeatherCoprocessor.kicad_sch" (id 1) (at 271.145 168.2246 0)
+    (property "Sheet file" "FeatherCoprocessor.kicad_sch" (id 1) (at 271.145 169.4946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "CHIPSET.~{INT}" output (at 271.145 156.845 180)
@@ -4992,6 +5000,10 @@
     (pin "~{RESET}" input (at 271.145 164.465 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 28a3ab23-b44a-4c1c-ac9b-d321f5182555)
+    )
+    (pin "CHIPSET.~{SEL}" input (at 271.145 167.005 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid dfa54e9c-fca5-489f-b55f-e9ed6d2d8c8c)
     )
   )
 
@@ -5015,14 +5027,14 @@
     )
   )
 
-  (sheet (at 271.145 132.08) (size 17.145 13.97) (fields_autoplaced)
+  (sheet (at 271.145 132.08) (size 17.145 15.24) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid c9365d17-b900-4bd3-b96d-5359e9255bd9)
     (property "Sheet name" "Feather Copro0" (id 0) (at 271.145 131.3684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "FeatherCoprocessor.kicad_sch" (id 1) (at 271.145 146.6346 0)
+    (property "Sheet file" "FeatherCoprocessor.kicad_sch" (id 1) (at 271.145 147.9046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "CHIPSET.~{INT}" output (at 271.145 135.255 180)
@@ -5040,6 +5052,10 @@
     (pin "~{RESET}" input (at 271.145 142.875 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid b43b6509-446a-4106-afad-73282c2e3ea2)
+    )
+    (pin "CHIPSET.~{SEL}" input (at 271.145 145.415 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 8721c25b-6256-4f92-bfe2-77469d3f3560)
     )
   )
 
@@ -5104,17 +5120,41 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/948941d9-5990-454f-9b30-189af36f1623"
       (reference "#PWR06") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/33147676-43f8-493a-9a6a-8cf437a2c6b4/301e903c-c1b0-4eaf-9dfc-ced02cd4b875"
+      (reference "#PWR07") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/33147676-43f8-493a-9a6a-8cf437a2c6b4/9a697ca2-426b-4221-a3a0-a2991f47de8b"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a626156e-d4b9-4c78-b816-3dc9dcecdaf5"
       (reference "#PWR09") (unit 1) (value "+5V") (footprint "")
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/2a9309cc-79e7-479c-ab5d-e36fb01501c3"
       (reference "#PWR010") (unit 1) (value "GND") (footprint "")
     )
+    (path "/33147676-43f8-493a-9a6a-8cf437a2c6b4/456c2675-8038-46e2-9d89-8539dc3f242c"
+      (reference "#PWR011") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/33147676-43f8-493a-9a6a-8cf437a2c6b4/4dc9d2e9-7762-46d8-b41d-17a3cf9fb6cb"
+      (reference "#PWR012") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/666eaa1f-94aa-46e3-a7dc-28dfe7618aa9"
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c9365d17-b900-4bd3-b96d-5359e9255bd9/301e903c-c1b0-4eaf-9dfc-ced02cd4b875"
+      (reference "#PWR014") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/c9365d17-b900-4bd3-b96d-5359e9255bd9/9a697ca2-426b-4221-a3a0-a2991f47de8b"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c9365d17-b900-4bd3-b96d-5359e9255bd9/456c2675-8038-46e2-9d89-8539dc3f242c"
+      (reference "#PWR016") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/bceabf0e-2710-4ae7-8c4a-c9f97abb3b18"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c9365d17-b900-4bd3-b96d-5359e9255bd9/4dc9d2e9-7762-46d8-b41d-17a3cf9fb6cb"
+      (reference "#PWR018") (unit 1) (value "+5V") (footprint "")
     )
     (path "/3ad50359-adcb-45da-a8b2-e582d67a0fe4"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
@@ -5560,6 +5600,9 @@
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/05297b31-bab0-473e-bc03-ff4ca6eca120"
       (reference "U12") (unit 1) (value "74AHC245") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
     )
+    (path "/33147676-43f8-493a-9a6a-8cf437a2c6b4/decd8d65-b8d6-46e0-86ad-86a60c20c42e"
+      (reference "U13") (unit 1) (value "Adafruit_FeatherWing") (footprint "Module:Adafruit_Feather")
+    )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/f1699c43-cf0a-4255-89c0-107adf651abd"
       (reference "U14") (unit 1) (value "GAL16V8") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
     )
@@ -5574,6 +5617,9 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/a3a58868-df38-4563-b5f7-e5b24114f6fd"
       (reference "U18") (unit 1) (value "74AHC573") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+    )
+    (path "/c9365d17-b900-4bd3-b96d-5359e9255bd9/decd8d65-b8d6-46e0-86ad-86a60c20c42e"
+      (reference "U19") (unit 1) (value "Adafruit_FeatherWing") (footprint "Module:Adafruit_Feather")
     )
     (path "/2bd6b25f-a519-4224-8dd9-2e42d262ce2e"
       (reference "XA1") (unit 1) (value "Adafruit Grand Central M4") (footprint "Arduino_Alarm_Siren:Arduino_Mega2560_Shield")
