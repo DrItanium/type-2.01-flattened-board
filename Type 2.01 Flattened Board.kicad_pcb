@@ -330,6 +330,7 @@
   (net 242 "/BUS.PA14")
   (net 243 "/BUS.PA6")
   (net 244 "/BUS.PA7")
+  (net 245 "/i960/ME.PF1")
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 10caeaad-c2b2-460b-9b15-978b86303b7e)
@@ -2188,7 +2189,7 @@
     (pad "23" thru_hole oval (at 15.24 43.18) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 12 "/i960/~{ME_READY}") (pinfunction "(TOSC1/TXD2/CCL3-IN0)PF0") (pintype "bidirectional") (tstamp a50cdfd3-dc97-4124-be00-d31dde2f8fb7))
     (pad "24" thru_hole oval (at 15.24 40.64) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
-      (net 6 "/i960/i960.~{LOCK}") (pinfunction "(TOSC2/RXD2/CCL3-IN1)PF1") (pintype "bidirectional") (tstamp 8d98d059-809e-4739-be6f-a4f8f4522046))
+      (net 245 "/i960/ME.PF1") (pinfunction "(TOSC2/RXD2/CCL3-IN1)PF1") (pintype "bidirectional") (tstamp 8d98d059-809e-4739-be6f-a4f8f4522046))
     (pad "25" thru_hole oval (at 15.24 38.1) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 "/i960/~{RESET_INTERMEDIATE}") (pinfunction "(AIN12/XCK2/CCL3-IN2)PF2") (pintype "bidirectional") (tstamp c07d7056-7945-409e-b51b-dbb2dfdc4002))
     (pad "26" thru_hole oval (at 15.24 35.56) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
