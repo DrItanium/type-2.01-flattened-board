@@ -1401,9 +1401,8 @@
     )
   )
 
-  (bus_alias "CCL" (members "IN[0..11]" "OUT[0..3]"))
   (bus_alias "MetroM4" (members "D[0..13]" "SCL" "SDA" "AREF" "A[0..5]" "MISO" "MOSI" "SCK" "~{RESET[0..1]}" "VIN"))
-
+  (bus_alias "CCL" (members "IN[0..11]" "OUT[0..3]"))
   (junction (at 54.102 162.052) (diameter 0) (color 0 0 0 0)
     (uuid 12ec7a6e-115f-4562-a917-8a1030bfed62)
   )
@@ -1526,7 +1525,7 @@
   )
   (bus_entry (at 248.92 86.36) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 2cec076f-9065-4a05-ab91-6fb7d2de4644)
+    (uuid 2cec076f-9065-4a05-ab91-6fb7d2de4645)
   )
   (bus_entry (at 23.368 141.732) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1674,7 +1673,7 @@
   )
   (bus_entry (at 238.76 86.36) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7ed63784-04e5-4ed6-9d60-b0ee8a0f72c8)
+    (uuid 7ed63784-04e5-4ed6-9d60-b0ee8a0f72c9)
   )
   (bus_entry (at 309.499 142.24) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -5431,6 +5430,9 @@
     )
     (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/32cf6c22-092f-47a1-90de-a0ed44f63e14"
       (reference "J5") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal")
+    )
+    (path "/cd4173d7-5549-43d9-b4b1-83989500a84c/e06d5d11-049a-4a91-8ff3-aaa15a4ab522"
+      (reference "J?") (unit 1) (value "Conn_01x16") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical")
     )
     (path "/449a4130-5198-43c7-aa17-3cb30c17454b"
       (reference "PT0") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")

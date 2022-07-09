@@ -289,7 +289,6 @@
   )
 
 
-
   (wire (pts (xy 54.61 160.02) (xy 99.06 160.02))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0292d2a5-56d0-4681-ba4b-b2eb95211184)
@@ -760,7 +759,7 @@
   (symbol (lib_id "NewICs:Adafruit_FeatherWing") (at 111.76 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 131ded78-b800-4efa-be80-598395cf99c3)
-    (property "Reference" "U13" (id 0) (at 111.76 115.8104 0))
+    (property "Reference" "U19" (id 0) (at 111.76 115.8104 0))
     (property "Value" "Adafruit_FeatherWing" (id 1) (at 111.76 118.3473 0))
     (property "Footprint" "Module:Adafruit_Feather" (id 2) (at 111.76 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -802,7 +801,7 @@
   (symbol (lib_id "power:GND") (at 38.1 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 156986a4-30b7-4be5-a603-f839de857c8d)
-    (property "Reference" "#PWR07" (id 0) (at 38.1 168.275 0)
+    (property "Reference" "#PWR015" (id 0) (at 38.1 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 38.1 166.3684 0))
@@ -924,7 +923,7 @@
   (symbol (lib_id "power:+5V") (at 186.69 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cd3fb125-c377-44b5-8e43-b79432ccee76)
-    (property "Reference" "#PWR011" (id 0) (at 186.69 114.3 0)
+    (property "Reference" "#PWR018" (id 0) (at 186.69 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 186.69 106.9142 0))
